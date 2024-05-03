@@ -890,7 +890,7 @@ function updateDefaultBitrate() {
     if (frameRate === "30") { // 2160p, 30fps
       $('#bitrateSlider')[0].MaterialSlider.change('40');
     } else { // 2160p, 60fps
-      $('#bitrateSlider')[0].MaterialSlider.change('80');
+      $('#bitrateSlider')[0].MaterialSlider.change('150');
     }
   } else { // unrecognized option. In case someone screws with the JS to add custom resolutions
     $('#bitrateSlider')[0].MaterialSlider.change('10');
